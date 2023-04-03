@@ -14,7 +14,7 @@ function App() {
       <Navigation />
 
       <Routes>
-        <Route path="/" element={<Home /> } />
+        <Route path="/crypto-app" element={<Home /> } />
         <Route path="/coins" element={<Coins /> } />
         <Route path="/exchanges" element={<Exchanges /> } />
         <Route path="/coin/:id" element={<CoinDetails /> } />
